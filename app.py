@@ -7,23 +7,23 @@ import numpy as np
 # Load Model
 # =========================
 
-with open("/content/car_price_model.pkl", "rb") as f:
+with open("car_price_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # =========================
 # Load Encoders
 # =========================
 
-with open("/content/fuel_encoder.pkl", "rb") as f:
+with open("fuel_encoder.pkl", "rb") as f:
     fuel_encoder = pickle.load(f)
 
-with open("/content/seller_encoder.pkl", "rb") as f:
+with open("seller_encoder.pkl", "rb") as f:
     seller_encoder = pickle.load(f)
 
-with open("/content/transmission_encoder.pkl", "rb") as f:
+with open("transmission_encoder.pkl", "rb") as f:
     transmission_encoder = pickle.load(f)
 
-with open("/content/car_encoder.pkl", "rb") as f:
+with open("car_encoder.pkl", "rb") as f:
     car_encoder = pickle.load(f)
 
 # =========================
